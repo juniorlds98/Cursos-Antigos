@@ -1,0 +1,267 @@
+/***************************************************************
+    Filename:Custom.css
+    Author: Junior Silva
+    Date: 06/12/2023
+
+    Index
+
+    1. General
+    2. Header
+    3. Cities
+    4. Table of Contents
+    5. Stats
+    6. Footer
+
+***************************************************************/
+
+
+/************************
+    1. General
+************************/
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #60495f;
+}
+::selection{
+    background: #ffee58;
+    color: #ff00af;
+}
+
+h1{
+    font-size: 48px;
+    line-height: 120%;
+    /*margin-top: 150px;*/
+    font-weight: 600;
+
+}
+
+h4{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    text-align: left;
+    color:#ff00af;
+    margin-bottom: 32px;
+
+}
+
+h5{
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #60495f;
+}
+/************************
+    2. Header
+************************/
+
+header{
+
+}
+
+header#hero{
+    color: #FFFFFF;
+    background: #ac3ecf;
+    background: -moz-linear-gradient(-45deg, #ac3ecf 100%);
+    background: -webkit-linear-gradient(-45deg, #ac3ecf 100%); 
+    background: linear-gradient(135deg, #ac3ecf 0%, #ff00af 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ac3ecf', endColorstr='#ff00af', GradientType=1 );    
+}
+
+header nav{
+    color: #FFFFFF;
+    background: #ac3ecf;
+    background: -moz-linear-gradient(-45deg, #ac3ecf 100%);
+    background: -webkit-linear-gradient(-45deg, #ac3ecf 100%); 
+    background: linear-gradient(135deg, #ac3ecf 0%, #ff00af 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ac3ecf', endColorstr='#ff00af', GradientType=1 );
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+header#hero-title{
+    
+}
+
+#hero-title h1{
+    margin-bottom: -10px; 
+}
+
+header#hero-subtitle{
+
+}
+
+#hero-subtitle h5{
+    margin-bottom: 24px;
+}
+
+header#call-to-scroll{
+
+}
+
+header #background-map {
+    background-image: url(../HTML_UXunicornio/img/mapa.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 75% -100px;
+}
+
+a.brand-logo{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#value-proposition {
+    height: 750px; 
+    position: relative;
+    top: 300px;
+    left: 50px;
+}
+
+#value-proposition a {
+    color: #B633BF;
+    font-weight: 600;
+}
+
+#value-proposition .col{
+    padding: 0;
+}
+
+#call-to-scroll{
+    color: #ff00af;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+#call-to-scroll i {
+    font-size: 50px;
+}
+
+#call-to-scroll .cta{
+    margin-top: 24px;
+    margin-bottom: -12px;
+}
+
+/************************
+    3. Cities
+************************/
+#Cities{
+
+}
+
+#cities-title{
+
+}
+
+.card-action a{
+    background: #FE03b0;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card-action a:hover{
+    background: #9a259f;
+}
+
+/************************
+    4. Table of Contents
+************************/
+#table-of-contents{
+    background: #FFF6FF;
+    padding: 24px;
+
+}
+
+#table-of-contents-title{
+    margin-top: 24px;  
+}
+
+#table-of-contents-title h4{
+    margin-bottom: -8px;
+}
+
+#table-of-contents-subtitle{
+
+}
+
+#table-of-contents-subtitle{
+    margin-bottom: -16px;
+}
+
+
+#table-of-contents-content{
+    background: #FFF;
+}
+
+.table-of-contents-content-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    padding: 16px 16px 0px 16px;
+}
+
+.table-of-contents-content-title-items{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+    padding: 0px 16px;
+    margin-left: 32px;
+}
+
+.table-of-contents-content-title-items li {
+    padding: 4px 0px;
+}
+
+/************************
+    5. Stats
+************************/
+
+#stats{
+    padding: 60px 0px;
+    background: url(./img/stats.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 100px;
+    background-size: 100% auto;
+}
+
+.stats-content-title{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+    color: #fe03b0;
+    text-shadow: 0px 0px 20px #fff;
+    padding-top: 32px;
+}
+
+.stats-content-subtitle{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #60495f;
+    padding-bottom: 32px;
+    margin: 0;
+}
+
+#stats-content{
+}
+
+/************************
+    6. Footer
+************************/
+#footer{
+    background: #9c27b0;
+    color: pink;
+}
